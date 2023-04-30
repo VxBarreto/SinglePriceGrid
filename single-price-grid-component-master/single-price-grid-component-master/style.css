@@ -1,0 +1,75 @@
+/* @import url(https://fonts.google.com/specimen/Karla); */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+.home-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    font-family: Karla;
+    font-size: 16px;
+
+}
+
+.main__titulo {
+    color: hsl(179, 62%, 43%);
+}
+
+.main__titulo__call {
+    color: hsl(71, 73%, 54%);
+}
+
+.main__vantagem {
+    color: hsl(218, 22%, 67%);
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.join {
+    font-family: Karla;
+    font-size: 16px;
+    background-color: hsl(179, 62%, 43%);
+
+}
+
+.join__subscription {
+
+
+}
+
+.join__subscription__valor {
+
+}
+
+.join__subscription__save {
+
+}
+
+.join__subscription__botao {
+
+}
+
+.reason {
+    font-family: Karla;
+    font-size: 16px;
+}
+
+.reason__motivos {
+    
+}
