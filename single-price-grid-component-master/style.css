@@ -1,29 +1,47 @@
-/* @import url(https://fonts.google.com/specimen/Karla); */
-
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
-.wrapper {
+.home-view {
     width: 1440px;
+    height: 100vh;
+    background-color: hsl(217, 32%, 87%);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.main {}
+.wrapper {
+    display: inline-flex;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    border-radius: 5px;
+    margin: 72px, 32px, 62px, 32px;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.main {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    padding: 28px 24px 32px 24px;
+    flex: 1 1 auto;
+    border-radius: 5px 5px 0 0;
+
+}
 
 .main__titulo {
-    font-size: 16px;
     color: hsl(179, 62%, 43%);
+    margin-bottom: 24;
 }
 
 .main__titulo__call {
-    font-size: 16px;
     color: hsl(71, 73%, 54%);
+    margin-bottom: 16px;
 }
 
 .main__vantagem {
-    font-size: 16px;
     color: hsl(218, 22%, 67%);
+    line-height: 26px;
 }
 
 .corpo {
@@ -33,30 +51,79 @@
 }
 
 .join {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 24px;
+    flex: 1 1 0;
+    background-color: hsl(179, 62%, 43%);
 
 }
 
 .join__subscription {
-    font-size: 16px;
+    margin-bottom: 10px;
 
+}
+
+.join__subscription__pricing {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 0;
 }
 
 .join__subscription__valor {
-
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Karla", sans-serif;
+    float: left;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
 }
 
-.join__subscription__save {
-    font-size: 16px;
+.join__subscription__mensal {
+    opacity: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 0;
 }
 
 .join__subscription__botao {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(71, 73%, 54%);
+    width: 263px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    margin-top: 26px
 }
 
 .reason {
-
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 24px;
+    flex: 1 1 0;
+    background-color: hsl(179, 58%, 52%)
 }
 
 .reason__motivos {
+    margin-bottom: 18px;
+}
 
+.reason__motivos__description {
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 75%;
 }
